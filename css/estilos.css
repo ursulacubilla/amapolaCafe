@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px 10px 0 10px;
+}
+header {
+    min-width: 490px;
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("/img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.link-logo {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Courier Prime', monospace;
+}
+.material-symbols-outlined {
+  color: white;
+  font-size: 44px !important;
+}
+.p-direccion {
+    width: 350px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Courier Prime', monospace;
+}
+.div-direccion {
+    width: 400px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.div-logo {
+    padding-top: 250px;
+}
+main {
+    text-align: center;
+}
+.menu-seccion {
+    min-width: 490px;
+}
+.img-menu {
+    width: 400px;
+}
+.menu-desayuno {
+    display: flex;
+    flex-wrap: wrap;
+}
+.seccion-menu-desayuno {
+    width: 700px;
+    text-align: center;
+}
+.div-menu-desayuno {
+    width: 500px;
+    margin: 0 auto;
+    line-height: 28px;
+    text-align: left;
+}
+.seccion-galeria-fotos {
+    min-width: 500px;
+}
+.img-galeria-fotos {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.h2-principal {
+    color: #c57b57;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Courier Prime', monospace;
+}
+.sobre-nosotros-seccion {
+    min-width: 500px;
+}
+.div-sobre-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobre-nosotros {
+    width: 700px;
+    text-align: center;
+}
+.h2-subtitulo {
+    color: #c57b57;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Courier Prime', monospace;
+}
+.div-parrafo-sobre-nosotros {
+    width: 500px;
+    margin: 0 auto;
+    line-height: 28px;
+    text-align: left;
+}
+p {
+    margin-bottom: 15px;
+}
+.reserva-horarios-atencion {
+    width: 700px;
+    text-align: center;
+    padding: 20px;
+}
+
+.div-contacto {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 0 auto;
+}
+.section-form {
+    width: 700px;
+    height: auto;
+    text-align: center;
+}
+.div-contacto-reservamesa {
+    width: 300px;
+    margin: 0 auto;
+    line-height: 17px;
+    text-align: left;
+}
+.form-contacto {
+    width: 500px;
+    margin: 0 auto;
+}
+label {
+    display: inline-block;
+    width: 400px;
+    text-align: start;
+    margin-top: 10px;
+}
+.input-contacto {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border-color: #c57b57;
+    font-family: 'Courier Prime', monospace;
+}
+
+input[type="checkbox"] {
+    margin-right: 20px;
+}
+
+.boton-contacto {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: #f1ab86;
+    border-color: #c57b57;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.boton-contacto:hover {
+    background-color: #c57b57;
+    color: white;
+}
+.section-form-pastel {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+.input-pastel {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    border-color: #c57b57;
+    font-family: 'Courier Prime', monospace;
+}
+
+textarea {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    border: 3px solid #c57b57;
+    font-family: 'Courier Prime', monospace;
+}
+.enviar-pedido {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: #f1ab86;
+    border-color: #c57b57;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.enviar-pedido:hover {
+    background-color: #c57b57;
+    color: white;
+}
+.div-reserva-pastel{
+    width: 500px;
+    margin: 0 auto;
+}
+.img-contacto {
+    max-width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+.contacto-reserva-mesa{
+    min-width: 500px;
+}
+.ubicacion-seccion{
+    min-width: 490px;
+}
+.seccion-ubicacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+}
+.div-ubicacion {
+    width: 700px;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("/img/header.jpg");
+}
+.div-direccion-mapa {
+    width: 400px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    min-width: 490px;
+    height: 50px;
+    background-color: #c57b57;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
