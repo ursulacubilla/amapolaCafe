@@ -10,7 +10,7 @@ body {
 header {
     min-width: 490px;
     height: 700px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("/img/header.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("/amapolaCafe/img/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -231,7 +231,7 @@ textarea {
 .div-ubicacion {
     width: 700px;
     height: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("amapolaCafe/img/header.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("/amapolaCafe/img/header.jpg");
 }
 .div-direccion-mapa {
     width: 400px;
