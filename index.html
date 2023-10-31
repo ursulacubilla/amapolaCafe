@@ -68,12 +68,12 @@
         <section class="seccion-galeria-fotos">
             <h2 class="h2-principal">Nuestras Creaciones</h2>
             <img src="./img/dostazasdecafe.jpg" alt="Imagen de una taza de cafe." class="img-galeria-fotos">
-            <img src="./img/budindefrutosrojos.jpg" alt="" class="img-galeria-fotos">
-            <img src="./img/especialidadCafe.jpg" alt="" class="img-galeria-fotos">
-            <img src="./img/mufindechocolate.jpg" alt="" class="img-galeria-fotos">
-            <img src="./img/pasteldechocolate.jpg" alt="" class="img-galeria-fotos">
-            <img src="./img/cafeespecial.jpg" alt="" class="img-galeria-fotos">
-            <img src="./img/cafeteria.jpg" alt="" class="img-galeria-fotos">
+            <img src="./img/budindefrutosrojos.jpg" alt="Budin de frutos rojos" class="img-galeria-fotos">
+            <img src="./img/especialidadCafe.jpg" alt="Preparando cafe" class="img-galeria-fotos">
+            <img src="./img/mufindechocolate.jpg" alt="Muffin de chocolate" class="img-galeria-fotos">
+            <img src="./img/pasteldechocolate.jpg" alt="Pastel de cumpleaños de chocolate" class="img-galeria-fotos">
+            <img src="./img/cafeespecial.jpg" alt="Haciendo dibujo en una taza de cafe" class="img-galeria-fotos">
+            <img src="./img/cafeteria.jpg" alt="Imagen del interior de la cafeteria" class="img-galeria-fotos">
         </section>
 
         <!-- Seccion sobre Nosotros -->
@@ -136,10 +136,13 @@
                         <input type="email" id="email" required placeholder="Email" class="input-contacto">
                        
                         <label for="fecha" class="label-reserva">Fecha de Reserva:</label>
-                        <input type="date" id="fecha" required class="input-contacto">
+                        <input type="date" id="fecha" required class="input-contacto" min="2023-10-31" max="2023-12-31">
                        
                         <label for="hora" class="label-reserva">Hora de Reserva:</label>
                         <input type="time" id="hora" required class="input-contacto">
+
+                        <label for="cantidad">Cantidad de comensales:</label>
+                        <input type="number" id="numero" required placeholder="Cantidad de comensales" class="input-contacto">
 
                         <br>
                         <label class="contacto-b"><input type="checkbox" required><b>Aceptar políticas </b></label>
@@ -184,7 +187,9 @@
 
     <!-- Footer -->
     <footer>
-        &copy; 2023 - Amapola Art Café. Todos los derechos reservados. Desarrollado por Ursula Cubilla
+        &copy; 2023 - Amapola Art Café. Todos los derechos reservados. 
+        <br>
+        Desarrollado por Ursula Cubilla
     </footer>
 
     <!-- Script -->

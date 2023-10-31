@@ -246,9 +246,28 @@ iframe {
 
 footer {
     min-width: 490px;
-    height: 50px;
+    height: 90px;
     background-color: #c57b57;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+}
+
+@media (min-width: 300px){
+    .img-galeria-fotos {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .div-parrafo-sobre-nosotros {
+        width: 400px;
+        font-size: 18px;
+    }
+    .div-menu-desayuno {
+        width: 400px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
 }
