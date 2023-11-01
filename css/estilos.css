@@ -64,7 +64,8 @@ main {
     text-align: left;
 }
 .seccion-galeria-fotos {
-    min-width: 500px;
+    width: 70%;
+    margin: 0 auto;
 }
 .img-galeria-fotos {
     width: 300px;
