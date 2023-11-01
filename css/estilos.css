@@ -64,7 +64,7 @@ main {
     text-align: left;
 }
 .seccion-galeria-fotos {
-    width: 70%;
+    min-width: 500px;
     margin: 0 auto;
 }
 .img-galeria-fotos {
@@ -255,7 +255,7 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 300px){
+@media (max-width: 500px){
     .img-galeria-fotos {
         width: 200px;
         height: 200px;
@@ -270,5 +270,9 @@ footer {
         font-size: 18px;
         line-height: 25px;
     }
+    /* .seccion-galeria-fotos {
+        width: 100%;
+        margin: 0 auto;
+    } */
     
 }
