@@ -19,28 +19,36 @@ document.getElementById('boton-pastel').addEventListener('click', function (e) {
     let formReservaPastel = document.querySelector('#reserva-pastel');
     formReservaPastel.innerHTML = `
             <form id="contactForm" class="form-pedido-pastel">
-                    <label for="name">Nombre:</label>
+                    <label for="name" class="label-reserva-pastel">Nombre:</label>
                     <input type="text" id="name" required class="input-pastel">
               
-                    <label for="email">Correo Electrónico:</label>
+                    <label for="email" class="label-reserva-pastel">Correo Electrónico:</label>
                     <input type="email" id="email" required class="input-pastel">
 
-                    <label for="fecha" class="label-reserva">Fecha de recogida:</label>
+                    <label for="fecha" class="label-reserva-pastel">Fecha de recogida:</label>
                     <input type="date" id="fecha" required class="input-pastel" min="2023-10-31" max="2023-12-31">
                
-                    <label for="message">Mensaje:</label>
+                    <label for="message" class="label-reserva-pastel">Mensaje:</label>
                     <textarea id="message" required placeholder="Tu pedido: describe aqui como quieres que sea tu pastel, peso, color, sabores, elergias, etc."></textarea>
                 
                 <button type="submit" class="enviar-pedido">Enviar Pedido</button>
+                <button type="button" class="cancelar-pedido">Cancelar</button>
+                
             </form>
         `;
 
-    const contactForm = document.getElementById('contactForm');
-    contactForm.addEventListener('submit', function (event) {
+    const contactoForm = document.getElementById('contactForm');
+    contactoForm.addEventListener('submit', function (event) {
         event.preventDefault();
 
         alert('¡Pedido realizado con éxito!');
 
+        formReservaPastel.innerHTML = '';
+        seccionReserva.style.display = "block";
+    });
+
+    const cancelarPedidoBtn = document.querySelector('.cancelar-pedido');
+    cancelarPedidoBtn.addEventListener('click', function () {
         formReservaPastel.innerHTML = '';
         seccionReserva.style.display = "block";
     });

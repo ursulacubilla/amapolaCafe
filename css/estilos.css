@@ -176,6 +176,12 @@ input[type="checkbox"] {
     width: 500px;
     text-align: center;
 }
+.label-reserva-pastel {
+    display: inline-block;
+    width: 500px;
+    text-align: start;
+    margin-top: 10px;
+}
 .input-pastel {
     margin-top: 5px;
     margin-bottom: 15px;
@@ -208,10 +214,24 @@ textarea {
     background-color: #c57b57;
     color: white;
 }
+.cancelar-pedido {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: #ef4242;
+    border-color: #ef4242;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.cancelar-pedido:hover {
+    background-color: #ac2b2b;
+    color: white;
+}
 .div-reserva-pastel{
     width: 500px;
     margin: 0 auto;
 }
+
 .img-contacto {
     max-width: 150px;
     height: 150px;
