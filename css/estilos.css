@@ -253,6 +253,8 @@ textarea {
 .div-ubicacion {
     width: 700px;
     height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("/amapolaCafe/img/header.jpg");
 }
 .div-direccion-mapa {
@@ -269,6 +271,7 @@ iframe {
 footer {
     min-width: 490px;
     height: 90px;
+    margin-top: 15px;
     background-color: #c57b57;
     display: flex;
     align-items: center;
