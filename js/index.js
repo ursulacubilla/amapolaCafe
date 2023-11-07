@@ -14,7 +14,7 @@ document.getElementById('form-contacto').addEventListener('submit', function (ev
 
 });
 
-elemento.addEventListener('scroll', miFuncion, { passive: true });
+
 
 // Limitacion de la fecha de reserva
 const inputFecha = document.getElementById('fecha');
@@ -64,5 +64,5 @@ document.getElementById('boton-pastel').addEventListener('click', function (e) {
 });
 
 
-
+document.addEventListener('scroll', { passive: true });
 
