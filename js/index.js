@@ -1,4 +1,4 @@
-// ormulario de reserva de mesa.
+// Formulario de reserva de mesa.
 document.getElementById('form-contacto').addEventListener('submit', function (event) {
     event.preventDefault();
 
@@ -10,7 +10,16 @@ document.getElementById('form-contacto').addEventListener('submit', function (ev
     alert('¡Gracias por reservar, ' + name + '! Tu mesa está reservada para el ' + date + ' a las ' + time + '. Te esperamos.');
 
     document.getElementById('form-contacto').reset();
+
+
 });
+
+elemento.addEventListener('scroll', miFuncion, { passive: true });
+
+// Limitacion de la fecha de reserva
+const inputFecha = document.getElementById('fecha');
+const fechaHoy = new Date().toISOString().split('T')[0];
+inputFecha.min = fechaHoy;
 
 // Formulario de reserva de pasteles.
 document.getElementById('boton-pastel').addEventListener('click', function (e) {
@@ -53,3 +62,7 @@ document.getElementById('boton-pastel').addEventListener('click', function (e) {
         seccionReserva.style.display = "block";
     });
 });
+
+
+
+
