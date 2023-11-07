@@ -218,13 +218,11 @@ textarea {
     margin-top: 10px;
     width: 200px;
     height: 40px;
-    background-color: #ef4242;
-    border-color: #ef4242;
     font-size: 15px;
     margin-bottom: 30px;
 }
 .cancelar-pedido:hover {
-    background-color: #ac2b2b;
+    background-color: #e37b7b;
     color: white;
 }
 .div-reserva-pastel{
