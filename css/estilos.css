@@ -209,6 +209,7 @@ textarea {
     border-color: #c57b57;
     font-size: 15px;
     margin-bottom: 30px;
+    border-radius: 5px;
 }
 .enviar-pedido:hover {
     background-color: #c57b57;
@@ -220,6 +221,8 @@ textarea {
     height: 40px;
     font-size: 15px;
     margin-bottom: 30px;
+    border-radius: 5px;
+    border-color: #c57b57;
 }
 .cancelar-pedido:hover {
     background-color: #e37b7b;
