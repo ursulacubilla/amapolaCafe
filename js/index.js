@@ -64,5 +64,6 @@ document.getElementById('boton-pastel').addEventListener('click', function (e) {
 });
 
 
-document.addEventListener('scroll', { passive: true });
+window.addEventListener('scroll', function() {
+}, { passive: true });
 
